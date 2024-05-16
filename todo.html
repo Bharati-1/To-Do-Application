@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp : Plan-your-tasks</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">TODO APP!</h1>
+
+    <!-- div containing inputs  -->
+    <div class="grid-container">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="Enter your tasks here....."
+      />
+      <input type="date" id="todo-date" />
+      <button id="add-btn" onclick="toAdd();">ADD</button>
+    </div>
+
+    <!-- div containing actual todo lists -->
+    <div class="main-container grid-container"></div>
+    <script src="todo.js"></script>
+  </body>
+</html>
